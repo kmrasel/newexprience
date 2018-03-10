@@ -1,0 +1,1089 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-str
+ict.dtd">
+<html xmlns=" http: //www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv= "content-type" content= "text/html; charset=utf-8" />
+<title>My design of poems page</title>
+<meta name= "keywords" content= "" />
+<meta name= "description" content= "" />
+<style type= 'text/css' >
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+a:link {
+  color: #356011;
+}
+a:hover{
+  text-decoration: underline;
+  color: #353535;
+}
+a:visited {
+  color: #356011;
+}
+*
+{
+border: 0;
+margin: 0;
+}
+body
+{
+  font: 12px Tahoma, Arial, Helvetica, sans-serif;
+  color: #666666;
+  background: #6d8835 url(metamorph_lake-images/bg.gif) repeat-x;
+}
+#bg{
+  background:url(img01.jpg) no-repeat center top;
+}
+#main
+{
+margin: 0 auto;
+width: 778px;
+background: #1e90ff;
+border-right: 10px solid #e3fdac;
+border-left: 10px solid #e3fdac;
+}
+#header
+{
+width: 778px;
+margin: 0 auto;
+height: 327px;
+background: url(img01.jpg) no-repeat center bottom;
+border-bottom: 8px solid #e3fdac;
+}
+#logo
+{
+padding-left: 40px;
+text-align: left;
+padding-top: 120px;
+height: 207px;
+}
+#logo a {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+#logo H2 a
+{
+font-size: 10px;
+}
+#buttons
+{
+  width: 778px;
+  height: 62px;
+  margin: 0 auto;
+  background: url(metamorph_lake-images/menu.gif) repeat-x;
+}
+#buttons ul {
+    padding-left: 80px;
+    margin: 0px;
+}
+#buttons li {
+  display: inline;
+}
+#buttons a {
+  display: block;
+float : left;
+width: 115px;
+height: 40px;
+text-align: center;
+text-decoration: none;
+color: #ff1493;
+font-weight: bold;
+font-size: 14px;
+padding-top: 22px;
+margin-right: 5px;
+}
+#buttons a:hover {
+  width: 115px;
+    height: 40px;
+  background: url(metamorph_lake-images/menu_hover.gif) repeat-x;
+}
+#content
+{
+width: 768px;
+padding: 5px;
+}
+#content_bg{
+  background: #ff1493 url(metamorph_lake-images/content_bg.gif) repeat-x top;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-top: 1px solid #e3fdac;
+}
+#left
+{
+width: 470px;
+padding: 10px;
+background: #20b2aa;
+border: 1px solid #ff1493;
+}
+.text{
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+#left H1, #left H2
+{
+color: #ff1493;
+font-size: 24px;
+font-family:Georgia, "Times New Roman" , Times, serif;
+padding-top: 20px;
+padding-left: 10px;
+background: url(metamorph_lake-images/title_left.gif) no-repeat;
+font-weight:normal;
+border-bottom: 1px solid #356011;
+}
+.post{
+  color: #356011;
+  font-family:Georgia, "Times New Roman" , Times, serif;
+font-size: 12px;
+font-weight: normal;
+}
+#left a
+{
+ color: #356011;
+}
+#left a:hover{
+  text-decoration: none;
+  color: #353535;
+}
+#left a:visited {
+  color: #356011;
+}
+.date {
+  margin: 0 auto;
+  color: #356011;
+  font-size: 11px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-top: 1px solid #356011;
+  font-weight:bold;
+}
+.date a {
+  color: #356011;
+  text-decoration:none;
+}
+.dateleft{
+  background:url(metamorph_lake-images/comment.gif) no-repeat;
+  padding-left: 30px;
+  height: 16px;
+  margin-top: 2px;
+  width:200px;
+  margin-left: 120px;
+  width: 130px;
+}
+.dateright{
+  margin-top: 2px;
+  background:url(metamorph_lake-images/timeicon.gif) no-repeat left;
+  padding-left: 25px;
+  height: 16px;
+float : left;
+}
+#right
+{
+width: 257px;
+padding-right: 7px;
+padding-top: 7px;
+padding-bottom: 7px;
+float :right;
+}
+#right ul
+{
+  list-style: none;
+  display:block;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#right ul li{
+  margin-bottom: 20px;
+  height: 24px;
+}
+#archives ul li {
+  margin-bottom: 5px;
+  background:url(metamorph_lake-images/list_style.gif) no-repeat left;
+  padding-left: 15px;
+}
+#right h2 {
+  height: 34px;
+  background: url(metamorph_lake-images/title_right.gif) no-repeat;
+  font-size: 18px;
+  color: #ffffff;
+  text-align:center;
+  padding-top: 12px;
+  font-weight: normal;
+}
+#right a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 12px;
+  font-weight: bold;
+}
+#right a:hover {
+  text-decoration: underline;
+}
+#right li a {
+  padding-left: 10px;
+  background: url(metamorph_lake-images/img09.gif) no-repeat;
+}
+#footer
+{
+  background: url(metamorph_lake-images/footer.gif) repeat-x;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 10px;
+  color: #ffffff;
+  padding-top: 20px;
+  text-align: center;
+  clear:both;
+}
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div id= "bg" >
+<div id= "main" >
+<!-- header begins -->
+<div id= "header" >
+<div id= "logo" ><a href= "#">My poems page</a>
+<h2><a href="http: //www.metamorphozis.com/" id="metamorph">Design by Metamorphosis Design</a></h
+2></div>
+</div>
+        <div id= "buttons" >
+<ul>
+<li class ="first" ><a href= "index.html" title= "" >Home</a></li>
+<li><a href= "My personal documents.html" title= "" >Results</a></li>
+<li><a href= "My photo gallary.html" title= "" >Gallery</a></li>
+<li><a href= "my personal contance.html" title= "" >Contance</a></li>
+<li><a href= "My poem.html" title= "" >Poems</a></li>
+</ul></div>
+<!-- header ends -->
+<!-- content begins -->
+<div id= "content_bg" >
+<div id= "content" >
+<div id= "right" >
+<div id= "archives" >
+<h2>Categories</h2>
+<ul>
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+<li>Solutions</li>
+<li>Forum</li>
+<li>What Our Future Plans</li>
+<li>Projects</li>
+<li>Contact Us</li>
+
+
+<li>Client Testimonials</li>
+<li>Latest Events</li>
+<li>Our Online Support</li>
+
+
+</ul>
+</div>
+</div>
+<div id= "left" >
+<h1>Welcome to my Website!</h1>
+
+
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <title>My poem</title>
+	 <meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="" type="text/css"/>
+ </head>
+ <style>
+ body {
+ background-color: #8b008b;
+ }
+ .container{
+ margin-top:30px;
+ }
+ </style>
+ <body>
+ <marquee><h1 style="color:d22222"><i>Welcome to visit my poems page-স্বাগতম আমার কবিতাপেজ পরিদর্শনের জন্য।</i></h1>
+ </marquee>
+
+ <div style="background-color:#8b008b; color:white; padding:15px;">
+ 
+ 
+ <h2><I>কবিতা:-১</I></h2>
+ <div class= "container" >
+<div class= "card" style= "width: 18rem;" >
+ 
+ <div class="card-body">
+ <p class="card-text"><i style="color:red">সন্ধেবেলা ঝগড়া হবে, হবে দুই বিছানা আলাদা
+ হপ্তা হপ্তা কথা বন্ধ মধ্যরাতে আচমকা মিলন
+ পাগলী, তোমার সঙ্গে ব্রক্ষ্মচারী জীবন কাটাব
+ পাগলী, তোমার সঙ্গে আদম ইভ কাটাব জীবন।
+-পাগলী তোমার সঙ্গে।</i></p>
+<h2><i>কবিতা:- ২</i></h2>
+
+<div class= "container" >
+<div class= "card" style= "width: 18rem;" >
+<i style="color:blue">সপ্ন আমার
+
+পথের পানে চেয়ে থাকি 
+মনের মাঝে তোমায় দেখি,
+
+কবে তুমি আসবে কাছে
+আমায় নেবে আপন করে,
+
+মিটবে আমার মনের আশা
+শেষ হবে সব প্রতীক্ষা,
+
+বাধব আমরা সুখের ঘর 
+স্বপ্ন দিযে তোমার আমার,
+​
+দিন কাটাবো স্বর্গ সুখে
+একে অন্যকে ভালোবেসে..
+</i>
+<h2><i>কবিতা:-৩</i></h2>
+<div class= "container" >
+<div class= "card" style= "width: 18rem;" >
+<i style="color:sky">** গোলাপের চারা****<br>
+
+তোমাকে দেখেছি যেদিন
+ ভালোবেসে ফেলেছি সেদিন 
+ আমি
+ কিন্তু বলতে পারিনি
+ আমার মনের না বলা কথা
+ তবুও তোমাকে ভালোবাসি।
+
+
+তোমাকে দেখতে পারবনা,বুঝতে পারবনা
+ মনে শুধু পাবো যন্ত্রণা
+ কেন না তোমার কাছ থেকে
+ আমার দূরত্বটা অনেক বেশি।
+
+তোমাকে যেন বার বার অনুভব করতে পারি
+ সে জন্য বাসায় এসে
+ এক গাদা গোলাপের চারা কিনেছি
+ লাগিয়েছি আমার চোখের সামনে
+ সবাইকে মানা করেছি
+ হাত দিয়ে যেন কেউ না ছোয়।
+
+প্রতেকদিন যত্ন নেই সেই গোলাপ চারার
+ এই গোলাপের মাঝে বুঝতে পারবো
+কতটা হাসি,আনন্দে মেতে থাকো তুমি
+ যদি এই চারা গাছ সতেজ না থাকে
+ তাহলে বুঝবো তুমি সুখে নেই,
+আর যদি গোলাপের চারা সতেজ থাকে
+ তাহলে বুঝবো তুমি সুখে আছো
+ সারাটাক্ষন।
+
+এই গোলাপের চারার যত্ন নেই 
+ কেন জানো
+কেন না সামনে ভালোবাসা দিবস
+সেই গোলাপ চারার গোলাপ দিয়ে
+তোমকে সেদিন আবার করবো প্রোপস ।</i>
+<h2><i>কবিতা:-৪</i></h2>
+<i style="color:red">******মেয়ে********<br>
+
+ এই মেয়ে তোমাকে ভালোবাসি
+ তুমি কেন বুঝনা সে কথা,
+ দূরে দূরে থকো কেন
+ দাও শুধু ব্যাথা ।
+
+ হৃদয়ে প্রেমের তুফান
+ শুনতে কি তমি পাও,
+ হৃদয় উজার করে প্রিয়া 
+ শুধু ভালোবাসা দাও।
+
+ প্রিয়া তোমার বাঁকা ঠোঁটের 
+ মিষ্টি মধুর হাঁসি,
+ জানো কি তুমি
+ আমি বড়ই ভালোবাসি।
+
+
+ হৃদয় মাঝে যখন তখন
+ দাও যে তুমি উুকি,
+ ভালোবাসা দাও শুধু
+ দিও নাকো ফাঁকি।
+
+ তোমার আশায় বসে থাকি
+ উদাস সারাক্ষণ,
+ এই মেয়ে বলনা
+ দেবে কি ঐ মন।</i>
+<h2><i>কবিতা:-৫</i></h2>
+<i style="color:orange">*****কতো বার বলবো ভালোবাসি******<br>
+ 
+ যতো বার বলেছি তোমায়
+ ফিরিয়ে দিয়েছ তুমি আমায়,
+ মেয়ে তোকে
+ কতো বার বলবো ভালোবাসি।
+
+
+ কেন মেয়ে এমনটি করো
+ আবার লুকিয় লুকিয়ে দেখ,
+ তোমার ভাবনায় আমায় রাখো
+ তবুও বলনা কেন মেয়ে
+ তুমিও আমায় ভালোবাসো।
+
+
+ কেটে গেলো এমনটি করে
+ একটি বছর প্রায়,
+ বদলে গেছে নিশ্চয় তোমার চারপাশ
+ তবুও মনে আসেনি তোমার
+ প্রেম -ভালোবাসার কোন আভাস।
+
+
+ কবে জাগবে তোমার মনে
+ ভালোবাসার মায়া,
+ রয়ে গেছি অপেক্ষায় আমি
+ পরবে না আমার করো দিকে ছায়া।</i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div style="background-color:#ffefd5; color:white; padding:15px;">
+
+
+<div style="background-color:#ffefd5; color:white; padding:15px;">
+
+<h2><i>কবিতা:-৬</i></h2>
+<i style="color:green">*****সময়ের স্রোত******<br>
+
+ অমূল্য হীন জীবনে
+ নেই কোন সাফল্য ,
+ সময়ের স্রোতে ভেসে যায়
+ আছে তার যত রত্ন ।
+
+ সময়কে মনে রাখা যায়
+ পারিনা সময়কে ধরে রাখতে,
+ শত শত টাকার বিনিময়ে
+ ফিরিয়ে আনতে পারবনা সময়কে।
+
+ সময়টাকে যে করবে হেলা
+ সময়ের পিছনে যতক্ষন,
+ কেউ ছুটবেনা
+ আসবেনা তার জীবনে
+ কোন পরিবর্তন ।
+
+ সময়ের প্রতিদান 
+ সময়ের মাঝে দিতে হবে,
+. তাহলে জীবন হবে অবক্ষয়
+ হাজারো চেস্টা করলে পারবেনা কেউ
+ তার জীবনকে ক্ষয় ।</i>
+
+<h2><i>কবিতা:-৭</i></h2>
+<i style="color:blue">****নতুন বছর****<br>
+
+পুরনো দিনের কথা
+কি ভাবে ভুলা যায়,
+পুরনো দিনের সপ্ন কী আর
+নতুন করে গাঁথা যায়।
+
+আমরা হচ্ছি অভিযাএিক
+নতুন সপ্ন নিয়ে বেঁচে থাকব,
+পুরনো দিনের ইতিহাস 
+ ভুলে গিয়ে
+নতুন বছরে পা দিব ।
+
+নতুন বছরকে দিব উপহার
+সঠিক পথকে করবো সাথী,
+পুরনো দিনের কথা ভুলে গিয়ে
+নতুন বছরকে আলোকিত করি।</i>
+
+<h2><i>কবিতা:-৮</i></h2>
+<i style="color:violet">**আমি আমার প্রেমিক ****<br>
+আমি আমার ওই প্রথম প্রেম
+ আমি আমার প্রেমিক ,
+তাই তো আমার মনটাকে 
+যেতে দেইনি এদিক-ওদিক।
+
+জানি মন তুই ছুটো ছুটি করবি
+ কারো ভালোবাসা পেতে,
+ভালোবাসতে দেবনা তোকে কাউকে
+বন্দী করে রেখেছি নিজের কাছে।
+
+মন তুই কারো প্রেমে হোস না অগ্রসর
+ আমার মতো করে কেউ তোকে
+. করবেনা যত্ন আদর ,
+মন তুই বসে থাক মনের মাঝে..
+ কষ্ট পাবো,
+ছুটে যাস যদি অন্য মনের টানে।
+
+ কতো সান্ত্বনা দেব তোকে আর
+মন তুই যদি মনের কথা না শুনিস,
+ আমি আমার প্রেমিক 
+মন তুই এই কথা মনে রাখিস।</i>
+
+<h2><i>কবিতা:-৯</i></h2>
+<i style="color:red">সবার আমি ছাত্র...!!<br>
+--------সুনির্মল বসু<br>
+ আকাশ আমায় শিক্ষা দিল
+ উদার হতে ভাই রে,
+কর্মী হবার মন্ত্র আমি
+ বায়ুর কাছে পাই রে।
+ পাহাড় শিখায় তাহার সমান-
+হই যেন ভাই মৌন-মহান,
+খোলা মাঠের উপদেশে-
+দিল-খোলা হই তাই রে।
+ সূর্য আমায় মন্ত্রণা দেয়
+ আপন তেজে জ্বলতে,
+চাঁদ শিখাল হাসতে মোরে,
+মধুর কথা বলতে।
+ ইঙ্গিতে তার শিখায় সাগর-
+অন্তর হোক রত্ন-আকর;
+নদীর কাছে শিক্ষা পেলাম
+ আপন বেগে চলতে।
+ মাটির কাছে সহিষ্ণুতা
+ পেলাম আমি শিক্ষা,
+আপন কাজে কঠোর হতে
+ পাষান দিল দীক্ষা।
+ ঝরনা তাহার সহজ গানে,
+গান জাগাল আমার প্রাণে;
+শ্যাম বনানী সরসতা
+ আমায় দিল ভিক্ষা।
+ বিশ্বজোড়া পাঠশালা মোর,
+সবার আমি ছাত্র,
+নানান ভাবে নতুন জিনিস
+ শিখছি দিবারাত্র।
+ এই পৃথিবীর বিরাট খাতায়,
+পাঠ্য যেসব পাতায় পাতায়
+ শিখছি সে সব কৌতূহলে,
+নেই দ্বিধা লেশমাত্র।</i>
+<h2><i>কবিতা:-১০</i></h2>
+<i style="color:blue">\"ডিজিটাল কবিতা\"<br>
+
+\"সন্ত্রাসী !! সন্ত্রাসী !!
+কোথা যাও নাচি নাচি..?
+দাড়াও না একবার ভাই...\"
+
+\"ঐ ব্যাটা টাকা গোনে...
+যাই তাহা আহরনে
+দাঁড়াবার সময় তো নাই...\"
+
+
+\"মাস্তান !! মাস্তান !!
+সাথে নিয়ে পোলাপান
+কোথা যাও বলে যাও শুনি..?\"
+
+\"এখন না দিও বাধা...
+তুলিয়াছি বহু চাঁদা
+নিজে নিজে ভাগ করে গুনি...\"
+
+
+\"পুলিশ ভাই !! পুলিশ ভাই !!
+নিরাপত্তা কোথায় পাই...?
+রাস্তায় চলা বড় দায়...\"
+
+\"ঐ চৌ রাস্তা মোড়ে.. 
+চেক পোষ্ট সেট করে..
+জনপ্রতি একশ চাঁদা তুলি..
+আমরা ইহাকেই নিরাপত্তা বলি..\"</i>
+</div>
+
+
+
+<div style="background-color:#1e90ff; color:white; padding:15px;">
+
+<h2><i>কবিতা:-১১</i></h2>
+<i stye="color:orange">\"মনের আকাশে চাঁদের মায়া\"<br>
+
+আমার আকাশ আমি
+তোকে দিলাম আজ,
+চাঁদ হয়ে থাকিস সেখানে তুই
+এটাই তোর কাজ।
+
+আলো দিয়ে দেখিস আমায়
+দেখতে দিস তুই নিজেকে,
+ইচ্ছে হলে আসিস তুই
+থাকতে আমার এই বুকেতে।
+
+আধো আধো আলোতে তুই
+হবি একদিন বাঁকা,
+সেদিন ভাববো শুধু বসে
+এইতো আমি হতে চলেছি একা।
+
+ধীরে ধীরে তুই যাবি নিভে
+আমার চোখের সামনে,
+বলতে পারবি সেদিন তোকে ছাড়া
+কি করে মন মানে ?
+
+হঠাৎ একদিন আবার তুই
+উঠবি আমার মনের আকাশে,
+এটাই ভেবে পাগল মন আমার
+বারে বারে শুধু হাসে॥</i>
+
+<h2><i>কবিতা:-১২</i></h2>
+
+<i style="color:blue">\"সেদিন বৃষ্টি ছিলোনা\" <br>
+
+সেদিন বৃষ্টি ছিলনা, 
+ছিলনা মেঘ আকাশে 
+প্রথম দেখেছিলাম তোমায়, 
+শরৎএর রোদ মাখা
+ স্নিগ্ধ কোমল বাতাসে। 
+কিছুটা দূরে ছিলাম 
+হয়তো লক্ষ্য করোনি, 
+আড়চোখে দেখছিলাম তোমায় 
+আর দেেখছিল সমগ্র ধরনী। 
+নিঃষ্পলক তাকিয়ে ছিলাম 
+তোমার ওই কালো টিপটার দিকে, 
+আর আশায় ছিলাম 
+কখন তোমার চোখ পড়বে আমার চোখে। 
+অসম্ভব সুন্দর লাগছিল তোমায় 
+ডালিম ফুলের মত লাল টুকটুকে শাড়ি, 
+যেন রূপকথাকে হার মানানো
+ মর্তের বুকে কোন এক ডানাকাটা পরী। 
+কিভাবে বলবো কথা 
+করবো কিছু মিথ্যে বাহাদুরি, 
+তোমার ওই খোলা চুল যেন 
+সমস্ত কাব্যকে করেছিল চুরি। 
+জানিনা কি ভাবছিলে সেদিন 
+কোথায় ছিল তোমার দৃৃষ্টি, 
+আমার তো বেহাল দশা 
+ঠিক যেন আগোছালো পৃথিবী 
+নতুন করে সৃষ্টি ।</i>
+
+<h2><i>কবিতা:-১৩</i></h2>
+<i style="color:indigo">|| খাই খাই ||<br>
+
+মোবাইল একে একে করিল সাবাড় !! 
+হাতঘড়ি.. ল্যান্ডফোন.. ক্যালকুলেটার !!
+
+টুনি খেল মোমবাতি - মাটির প্রদীপ !!
+রেকর্ড চিবিয়ে খেল এক ফোঁটা চিপ !!
+
+পলিপ্যাক ঠোঙা খায়, পলিব্যাগ হাঁড়ি !!
+মেট্রো জাবর কাটে খেয়ে ট্রামগাড়ি !!
+
+টিভি খেল গপাগপ --- রেডিও হজম !!
+সিনেমার হল খেল কত ডট কম !!
+
+কানামাছি, দাড়িবাঁধা, উবু-ইশ-বিশ !!
+ভিডিও মটকে ঘাড় করিল হাপিস ।
+
+রিমিক্স করিল গ্রাস কত গান-গাঁথা !!
+ফেসবুক খেয়ে নিল কবিতার খাতা !!
+
+ইমেল ছিঁড়িয়া খায় পোস্টকার্ড খাম !!
+যত পাই তত খাই অধিক আরাম !!
+
+টোটো বলে, হাঁউ মাঁউ---- রিক্সা ভ্যানিস !!
+কত এল কত খেল তবু ক্রাইসিস!!</i>
+
+<h2><i>কবিতা:-১৪</i></h2>
+
+<i style="color:green">★দুঃখ নামের স্টেশনে থামলো জীবন গাড়ী★
+★আজও খুজে পেলাম না কোথায় সুখের বাড়ী★
+★বিধাতার কলমে বুঝি ছিল না কোন কালি★
+★সুখ নামের জায়গাটা তাই পড়ে আছে যে খালি★</i>
+<h2><i>কবিতা:-১৫</i></h2>
+
+<i style="color:red">অনেক ছিল বলার
+- কাজী নজরুল ইসলাম<br>
+
+অনেক ছিল বলার, যদি সেদিন ভালোবাসতে
+পথ ছিল গো চলার, যদি দুদিন আগে আসতে
+আজকে মহাসাগর স্রোতে চলেছি দূর পারের পথে
+ঝরা পাতা হারায় যথা, সেই আঁধারে ভাসতে
+যাই সেই আঁধারে ভাসতে।
+
+গহন রাতি ডাকে আমায়, এসে তুমি আজকে
+কাঁদিয়ে গেলে হায় গো আমার বিদায় বেলার সাঁঝকে
+আসতে যদি হে অতিথি, ছিল যখন শুক্লা তিথি
+ফুটতো চাঁপা, সেদিন যদি চৈতালী চাঁদ হাসতে।।</i>
+</div>
+
+
+
+<div style="background-color:#b22222; color:white; padding:15px;">
+
+<h2><i>কবিতা:-১৬</i></h2>
+
+<i style="color:blue">অনেক মানুষের ভিড়ে , 
+জানিনা কোথায় , 
+ হারালাম তারে । 
+খুঁজে ফিরি তারে চারিধার ॥ 
+কখনও বই-খাতায় , 
+ কখনও বা মনের পাতায় । 
+খুঁজে ফিরি সকল,আলো-আঁধার ॥ 
+খুজে আমি পাইনা তারে , 
+ ফোনটা দেখি বারেবারে । 
+সকাল আর , সাঁঝের মাঝে , 
+ফোনটা কেন না আর বাজে । 
+ জানিনা এমন কি যে হলো , 
+খুঁজে ফিরি তারে চারি ধার ॥ 
+পাইনি তারে আজও খুঁজে , 
+ সত্যিই কি আমি বাজে ? 
+এর উত্তর আমি নাহি পাই , 
+তারে আমি খুঁজে যাই । 
+ জানিনা কি পাবো তারে , 
+বিশ্বজোড়া এ\'সংসারে । 
+খুঁজে ফিরি তারে চারিধার , 
+ খুঁজে ফিরি সকল আলো-আঁধার ॥</i>
+
+<h2><i>কবিতা:-১৭</i></h2>
+
+<i style="color:orange">অনেক মানুষের ভিড়ে , 
+জানিনা কোথায় , 
+ হারালাম তারে । 
+খুঁজে ফিরি তারে চারিধার ॥ 
+কখনও বই-খাতায় , 
+ কখনও বা মনের পাতায় । 
+খুঁজে ফিরি সকল,আলো-আঁধার ॥ 
+খুজে আমি পাইনা তারে , 
+ ফোনটা দেখি বারেবারে । 
+সকাল আর , সাঁঝের মাঝে , 
+ফোনটা কেন না আর বাজে । 
+ জানিনা এমন কি যে হলো , 
+খুঁজে ফিরি তারে চারি ধার ॥ 
+পাইনি তারে আজও খুঁজে , 
+ সত্যিই কি আমি বাজে ? 
+এর উত্তর আমি নাহি পাই , 
+তারে আমি খুঁজে যাই । 
+ জানিনা কি পাবো তারে , 
+বিশ্বজোড়া এ\'সংসারে ।
+খুঁজে ফিরি তারে চারিধার , 
+ খুঁজে ফিরি সকল আলো-আঁধার ॥</i>
+
+<h2><i>কবিতা:-১৮</i></h2>
+
+<i style="color:violet">অন্যমনে একদিন ভালোবাসা কড়া নেড়ে যাবে;
+অপেক্ষায় থেকো।
+পদশব্দে মনে হবে বাতাসের নিষ্ঠুর শাসানি
+বহুদূরে শাণ দিচ্ছে ভয়ানক কৌতুকের থেকে।
+তোমার দু’পাশে রাস্তা, সাজানো শরীরের
+অলিন্দ থম্‌কে আছে, 
+চারিদিকে আলোর চাতুরি
+স্বপ্নের ভিতর কিংবা মৃত্যুর ভিতর কিংবা
+জাগরণে, 
+সূর্যের ভিতর একাকী, নিঃসঙ্গ, এই আত্মঘাতী শোকের ভিতরথেকো, 
+তবু অপেক্ষায় থেকো।</i>
+
+<h2><i>কবিতা:-১৯</i></h2>
+
+<i style="color:green">অবাক চাঁদের আলোয় দেখো ভেসে যায় আমাদের পৃথিবী, 
+আড়াল হতে দেখেছি তোমায়। নিষ্পাপ… মুখখানি.......... 
+ডুবেছি আমি তোমার চোখের অনন্ত মায়ায়। 
+বুঝিনি কভু সেই মায়া তো আমার তরে নয়…... 
+ভুলগুলো জমিয়ে রেখে বুকের মণিকোঠায়। 
+আপন মনের আড়াল থেকে… ভালবাসবো 
+তোমায়… 
+ভালবাসবো তোমায়….</i>
+
+<h2><i>কবিতা:-২০</i></h2>
+
+<i style="color:blue">অভিমান ... <br>
+
+সে দিনও এসেছিলো বসন্ত - 
+বুকে ছিলো ভালোবাসা - অফুরন্ত !
+ তুমি আসবে বলে ......... 
+এনে ছিলাম ফুল -গোলাপ - কদম - কৃষ্ণচূড়া ! 
+লিখেছিলাম -গান - কবিতা - ভালবাসার ছড়া । 
+তবুও তুমি এলে না-
+ ভালোবাসা দিলে না.....
+ আজও তুমি জেনে নাও -
+ ভালোবাসা না দাও - 
+শুধুই ভালবাসা নাও । 
+আর কিছুই চাইনা আমি- 
+হাসি মুখে ব্যথা দিলে তুমি ।
+ জানি তুমি- জানি আসবেই - ফিরে একদিন!
+ মারনের আগে - পরে, 
+হয়তো কোনো দিন। 
+.........যদি তুমি ফিরে আসো -
+ কোন এক শ্রাবন মাসে ........
+ হয় তো আমায় নয় - স্মৃতি গুলো পাবে পাশে..</i>
+</div>
+
+
+<div style="background-color:#8b808b; color:white; padding:15px;">
+
+<h2><i>কবিতা:-২১</i></h2>
+<i style="color:red">অশ্রু নয়,
+শুকনো জল !
+ঝরে অবিরত
+ তোমার স্মৃতি ভেবে |
+
+কান্না নয়
+ কষ্টের হিল্লোল !
+বয় নীরবধি
+ তোমায় হারিয়েছি যবে |
+
+ভালো আছি
+ আনন্দ নাই !
+তুমি ফিরে এসো
+ আবার ভালোবাস |
+
+ঘুমন্ত আমি
+ চোখে নিদ্রা নেই !
+থেকো তুমি ভালো
+ পথ হারালে ডাক দিও
+ জ্বেলে দেব আলো।</i>
+
+
+<div class="container"></div>
+
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <title>Untitled</title>
+	 <meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="" type="text/css"/>
+ </head>
+ <style>
+ *
+ {
+ margin:0px;
+ padding:0px;
+ }
+ #menu ul
+ {
+ list-style:none;
+ }
+ #menu ul li
+ {
+ background-color:red;
+ border:1px solid white;
+ width:50px;
+ hight:40px;
+ line-hight:35px;
+ text-align:center;
+ float:left;
+ position:relative;
+ border-radius:8px;
+ }
+ #menu ul li a
+ {
+ text-decoration:none;
+ color:white;
+ display:block;
+ }
+ #menu ul li a:hover
+ {
+  background-color:green;
+  border-radius:8px;
+ }
+ #menu ul ul
+ {
+ position:absolute;
+ display:none;
+ }
+ #menu ul li:hover>ul
+ {
+ display:block;
+ }
+ #menu ul ul ul
+ {
+ margin-left:50px;
+ top:0px;
+ }
+ </style>
+	 <body>
+	<div id="menu">
+	
+	      <ul>
+	      <li><a href="Index.html">1</a></li>
+	      <li><a href="My photo gallary.html">2</a></li>
+	      <li><a href="My poem.html">3</a></li>
+	      <li><a href="My personal contance.html">4</a></li>
+	      <li><a href="My personal Documents.html">5</a></li>
+	      
+	      </ul>
+	</div>
+	
+	</div>
+	 </body>
+ </html>
+
+
+
+
+
+<!-- content ends -->
+<!-- footer begins -->
+<div id= "footer" >
+<p>Copyright  2009. Designed by <a href= "http://www.metamorphozis.com/" title="Free Web Templates"
+>Free Web Templates</a></p>
+    <p><a href=" #">Privacy Policy</a> | <a href=" # ">Terms of Use</a> | <a href=" http: //validator.w3.
+org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible Hyp
+erText Markup Language">XHTML</abbr></a> | <a href="http://jigsaw.w3.org/css-validator/check/referer
+" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a></p></div>
+<!-- footer ends -->
+</div>
+</div>
+</body>
+</html>
